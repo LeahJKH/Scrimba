@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+h1 {
+  color: indianred;
+  background: black;
+  min-width: 30px;
+  min-height: 40px;
+  text-align: right;
+}
+button {
+  border: 1px solid white;
+  min-height: 30px;
+  min-width: 40px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 3px;
+  margin: 5px 2px;
+}
+button:hover {
+  background-color: blue;
+}
+.container {
+  display: flex;
+  min-height: 230px;
+  width: 500px;
+  color: white;
+  background-color: darkblue;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 10px 5px;
+}
+#save {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bgF {
+  display: flex;
+  background-color: black;
+  height: 40px;
+  flex-direction: row;
+}
+.bgF > h3 {
+  margin-left: 50%;
+}

@@ -1,0 +1,51 @@
+body {
+    background-image: url("./smokeyStudio.jpg");
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0
+}
+
+.container {
+    background: rgb(122, 121, 121);
+    max-width: 60%;
+    margin: 100px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+#restart-btn {
+    background: #b11616;
+}
+
+#save-el {
+    font-weight: bold;
+}
+

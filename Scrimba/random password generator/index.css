@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #382f4f ;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+h1,h2,h3,h4 {
+    color: whitesmoke;
+}
+span {
+    color: #53db58;
+}
+
+p {
+    color: green;
+}
+button {
+    border: none;
+    border-radius: 4px;
+    min-height: 20px;
+    min-width: 40px;
+    background-color: #53db58;
+    color: whitesmoke;  
+    margin: 5px;
+    padding: 5px;
+}
+#checkboxes {
+    justify-content: space-around;
+    
+}
+.container {
+    background-color: #231e30;
+    border: 1px solid black;
+    height: 40px;
+    width: 200px;
+    box-shadow: 0px 0px 3px;
+    margin: 10px auto ;
+    text-align: center;
+    
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+#warning {
+    color: red;
+}

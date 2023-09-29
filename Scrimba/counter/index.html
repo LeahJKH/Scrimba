@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div>
+          <h3>HOME</h3>
+          <h1 id="timerH"></h1>
+          <button onclick="homeAddOne()">+1</button>
+          <button onclick="homeAddTwo()">+2</button>
+          <button onclick="homeAddThree()">+3</button>
+          <div class="bgF">
+            <button onclick="foulCounterHome()">foul</button>
+            <h4 id="foulCL"></h4>
+          </div>
+        </div>
+        <div>
+          <h3>GUEST</h3>
+          <h1 id="timerG"></h1>
+          <button onclick="guestAddOne()">+1</button>
+          <button onclick="guestAddTwo()">+2</button>
+          <button onclick="guestAddThree()">+3</button>
+          <div class="bgF">
+            <button onclick="foulCounterGuest()">foul</button>
+            <h4 id="foulCR"></h4>
+          </div>
+        </div>
+      </div>
+      <button onclick="restarter()">new game</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>
+      generate a
+      <span> random password </span>
+    </h1>
+    <h4>never use a inescure password again</h4>
+    <button onclick="passwordCreate()">generate password</button>
+
+    <div id="checkboxes">
+      <input type="checkbox" name="letters_noLetters" onchange="letterYes()" />letters
+      <input type="checkbox" name="numbers_noNumbers" onchange="numberYes()" />numbers
+      <input type="checkbox" name="symbols-noSymbols" onchange="symbolYes()" />symbols
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <p id="pass-field-one"></p>
+      </div>
+
+      <div class="container">
+        <p id="pass-field-two"></p>
+      </div>
+    </div>
+    <p id="warning"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
