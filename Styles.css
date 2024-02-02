@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 128, 201);
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: black;
+    margin: 10px 0;
+}
+h1, p {
+    color: rgb(240, 223, 223);
+}
+#linkBox {
+    border: 2px rgb(80, 29, 80) solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
